@@ -24,7 +24,7 @@ from collectors.lib import utils
 
 HOST = 'localhost'
 PORT = 27017
-INTERVAL = 15
+INTERVAL = 60
 METRICS = (
     'backgroundFlushing.average_ms',
     'backgroundFlushing.flushes',

@@ -28,7 +28,7 @@ except ImportError:
 
 from collectors.etc import mysqlconf
 
-COLLECTION_INTERVAL = 15  # seconds
+COLLECTION_INTERVAL = 60  # seconds
 CONNECT_TIMEOUT = 2  # seconds
 # How frequently we try to find new databases.
 DB_REFRESH_INTERVAL = 60  # seconds
