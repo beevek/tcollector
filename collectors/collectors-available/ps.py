@@ -22,7 +22,7 @@ except ImportError:
 
 from collectors.lib import utils
 
-INTERVAL = 60
+INTERVAL = 300
 PYTHON_INTERP = 'python'
 
 # items in this list should match process name
